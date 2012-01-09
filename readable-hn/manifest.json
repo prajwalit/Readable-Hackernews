@@ -3,8 +3,8 @@
   "version": "1.0",
   "description": "A Bit More Readable HackerNews",
   "content_scripts": [{	
-    "matches": ["http://news.ycombinator.org/*", "https://news.ycombinator.org/*"],
+    "matches": ["http://news.ycombinator.org/*", "https://news.ycombinator.org/*", "http://news.ycombinator.com/*", "https://news.ycombinator.com/*"],
     "css": ["hn.css"]
   }],
-  "permissions": ["http://news.ycombinator.org/*", "https://news.ycombinator.org/*"]
+  "permissions": ["http://news.ycombinator.org/*", "https://news.ycombinator.org/*", "http://news.ycombinator.com/*", "https://news.ycombinator.com/*"]
 }
