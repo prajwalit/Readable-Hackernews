@@ -1,0 +1,10 @@
+{
+  "name": "Readable HackerNews",
+  "version": "1.0",
+  "description": "A Bit More Readable HackerNews",
+  "content_scripts": [{	
+    "matches": ["http://news.ycombinator.org/*", "https://news.ycombinator.org/*"],
+    "css": ["hn.css"]
+  }],
+  "permissions": ["http://news.ycombinator.org/*", "https://news.ycombinator.org/*"]
+}

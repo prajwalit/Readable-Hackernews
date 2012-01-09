@@ -1,0 +1,38 @@
+body {
+    background: #f6f6ef;
+}
+
+td[bgcolor="#ff6600"]:first-child {
+    background: palegoldenrod;
+}
+
+tr[style="height:5px;"]{
+    height: 10px;
+}
+
+td.title {
+    font-size: 13pt;
+    line-height: 18pt;
+}
+
+td.subtext {
+    padding-bottom: 8px;
+    font-size: 8pt !important;
+}
+
+td.subtext span:first-child {
+    color: #444;
+}
+
+td.subtext a:nth-child(3) {
+    color: #444
+    padding: 4px 0 8px;
+}
+
+.comment {
+    font-size: 12pt !important;
+}
+
+.comment font {
+    color: #333 !important;
+}
