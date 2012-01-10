@@ -2,6 +2,10 @@ body {
     background: #f6f6ef;
 }
 
+body table:first-child {
+    width: 1000px !important;
+}
+
 td[bgcolor="#ff6600"]:first-child {
     background: palegoldenrod;
 }
