@@ -21,7 +21,11 @@ td.title {
 
 td.subtext {
     padding-bottom: 8px;
-    font-size: 8pt !important;
+    font-size: 9pt !important;
+}
+
+.comhead {
+    font-size: 9pt !important;
 }
 
 td.subtext span:first-child {
@@ -35,6 +39,7 @@ td.subtext a:nth-child(3) {
 
 .comment {
     font-size: 12pt !important;
+    overflow: hidden;
 }
 
 .comment font {
