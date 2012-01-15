@@ -7,7 +7,7 @@ body table:first-child {
 }
 
 td[bgcolor="#ff6600"]:first-child {
-    background: palegoldenrod;
+    background: #dadada;
 }
 
 tr[style="height:5px;"]{
