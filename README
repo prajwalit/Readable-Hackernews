@@ -3,7 +3,11 @@ Readable HN.
 HackerNews' font is too small and header color is too flashy for my taste.
 I fixed it with this extension.
 
-Its not on extension library right now, so to use it:
+Its not on extension library right now, so to use it now:
+Download readable-hn.crx file and drag-drop it in chrome.
+
+OR
+
 1) Clone Repository. 
 2) Go to Chrome extension tab and switch on the developer mode.
 3) click on load unpacked extension and select readable-hn folder.
