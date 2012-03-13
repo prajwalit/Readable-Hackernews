@@ -45,3 +45,11 @@ td.subtext a:nth-child(3) {
 .comment font {
     color: #333 !important;
 }
+
+.closed td.default>p {
+    display: none;
+}
+
+.commentWrapper td[valign="top"] {
+    width: 5px;
+}

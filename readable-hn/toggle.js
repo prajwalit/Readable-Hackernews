@@ -10,8 +10,10 @@
   $ (".commentWrapper").each (function (index, node) {
     var commentHeader = $(node).find (".comhead").parent ();
     commentHeader.addClass ("commentHeader").append ("&nbsp;<a href='javascript:void(0);' class='toggle'>[-]</a>");
-    var level = ($(node).find ("img").first ().attr ("width"))*1 / 40;
+    var img = $(node).find ("img:first");
+    var level = (img.attr ("width"))*1 / 40;
     $(node).attr ("data_level", level);
+    img.parent ().css ("width", (level * 40) + "px");
     var comment = $(node).find (".comment");
     comment.replaceWith ("<div class='comment'>" + comment.html () + "</div>");
   });
