@@ -1,8 +1,9 @@
 {
   "name": "Readable HackerNews",
   "version": "1.0",
+  "manifest_version": 2,
   "description": "A Bit More Readable HackerNews",
-  "content_scripts": [{	
+  "content_scripts": [{
     "matches": ["http://news.ycombinator.org/*",
                 "https://news.ycombinator.org/*",
                 "http://news.ycombinator.com/*",
